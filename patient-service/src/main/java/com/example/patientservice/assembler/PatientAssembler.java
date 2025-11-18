@@ -1,7 +1,10 @@
 package com.example.patientservice.assembler;
 
+import com.example.patientservice.dto.PatientRequestDTO;
 import com.example.patientservice.dto.PatientResponseDTO;
 import com.example.patientservice.model.Patient;
+
+import java.time.LocalDate;
 
 public class PatientAssembler {
     public static PatientResponseDTO assembleDTO(Patient patient){
@@ -12,5 +15,15 @@ public class PatientAssembler {
         patientResponseDTO.setEmail(patient.getEmail());
         patientResponseDTO.setDateOfBirth(patient.getDateOfBirth().toString());
         return patientResponseDTO;
+    }
+
+    public static Patient assembleDetails(PatientRequestDTO patientDTO){
+        Patient patient = new Patient();
+        patient.setName(patientDTO.getName());
+        patient.setAddress(patientDTO.getAddress());
+        patient.setEmail(patientDTO.getEmail());
+        patient.setDateOfBirth(LocalDate.parse(patientDTO.getDateOfBirth()));
+        patient.setRegisteredDate(LocalDate.parse(patientDTO.getRegisteredDate()));
+        return patient;
     }
 }
