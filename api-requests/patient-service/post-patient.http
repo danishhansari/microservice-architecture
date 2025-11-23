@@ -1,0 +1,10 @@
+POST http://localhost:3000/patients
+Content-Type: application/json
+
+{
+  "name": "Danish",
+  "email": "danish@gmail.com",
+  "address": "Mumbai",
+  "dateOfBirth": "2003-06-17",
+  "registeredDate": "2025-11-20"
+}

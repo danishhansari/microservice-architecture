@@ -1,0 +1,10 @@
+PUT http://localhost:3000/patients/223e4567-e89b-12d3-a456-426614174014
+Content-Type: application/json
+
+
+{
+  "name": "Danish Ansari",
+  "email": "danishh@gmail.com",
+  "address": "Mumbai",
+  "dateOfBirth": "2003-06-17"
+}
