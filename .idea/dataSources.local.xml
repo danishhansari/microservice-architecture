@@ -12,11 +12,5 @@
       <user-name>admin</user-name>
       <schema-mapping />
     </data-source>
-    <data-source name="identifier.sqlite" uuid="b17be035-7b14-4516-8a38-09f8630018a0">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" />
-      <secret-storage>master_key</secret-storage>
-      <auth-provider>no-auth</auth-provider>
-      <schema-mapping />
-    </data-source>
   </component>
 </project>
