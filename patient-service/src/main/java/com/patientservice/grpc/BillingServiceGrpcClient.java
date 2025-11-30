@@ -16,8 +16,8 @@ public class BillingServiceGrpcClient {
     private final BillingServiceGrpc.BillingServiceBlockingStub blockingStub;
 
     public BillingServiceGrpcClient(
-            @Value("${billing.grpc.host}") String serverAddress,
-            @Value("${billing.grpc.port}") int serverPort
+            @Value("${billing.service.address:localhost}") String serverAddress,
+            @Value("${billing.service.grpc.port:9001}") int serverPort
     ){
     log.info("Connecting to Billing Service GRPC server at {}:{}", serverAddress, serverPort);
 
