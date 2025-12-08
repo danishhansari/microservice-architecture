@@ -1,2 +1,2 @@
 ## DELETE PATIENT
-DELETE http://localhost:3000/patients/223e4567-e89b-12d3-a456-426614174013
+DELETE http://localhost:3003/api/patients/223e4567-e89b-12d3-a456-426614174013
