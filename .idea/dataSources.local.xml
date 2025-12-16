@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-252.27397.103">
-    <data-source name="auth-service-db" uuid="31c827f1-0eda-41e7-b56b-dd9aae866712">
+    <data-source name="patient-service-db" uuid="bc4dcb6f-0b58-470f-9a19-87d8815ecf0f">
       <database-info product="PostgreSQL" version="18.1 (Debian 18.1-1.pgdg13+2)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.7.3" dbms="POSTGRES" exact-version="18.1" exact-driver-version="42.7">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
@@ -16,7 +16,7 @@
         </introspection-scope>
       </schema-mapping>
     </data-source>
-    <data-source name="patient-service-db" uuid="bc4dcb6f-0b58-470f-9a19-87d8815ecf0f">
+    <data-source name="db@localhost" uuid="9eb2ccff-d5d0-403b-ae1a-e5ccbe0adf3b">
       <database-info product="PostgreSQL" version="18.1 (Debian 18.1-1.pgdg13+2)" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.7.3" dbms="POSTGRES" exact-version="18.1" exact-driver-version="42.7">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>

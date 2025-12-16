@@ -30,7 +30,7 @@ public class User {
         return this;
     }
 
-    public String email() {
+    public String getEmail() {
         return email;
     }
 
@@ -39,7 +39,7 @@ public class User {
         return this;
     }
 
-    public String password() {
+    public String getPassword() {
         return password;
     }
 
@@ -48,7 +48,7 @@ public class User {
         return this;
     }
 
-    public String role() {
+    public String getRole() {
         return role;
     }
 

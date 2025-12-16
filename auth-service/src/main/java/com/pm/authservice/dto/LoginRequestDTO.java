@@ -16,7 +16,7 @@ public class LoginRequestDTO {
 
     public @NotBlank(message = "Email is required")
     @Email(message = "Email should be a valid email address")
-    String email() {
+    String getEmail() {
         return email;
     }
 
@@ -29,7 +29,7 @@ public class LoginRequestDTO {
 
     public @NotBlank(message = "Password is required")
     @Size(min = 8, message = "Password must be atleast 8 character long")
-    String password() {
+    String getPassword() {
         return password;
     }
 
