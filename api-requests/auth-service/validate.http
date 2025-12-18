@@ -1,0 +1,2 @@
+GET http://localhost:3003/auth/validate
+Authorization: Bearer {{token}}
